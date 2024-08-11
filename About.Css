@@ -1,0 +1,15 @@
+*{
+margin:0px;
+padding:0px;
+}
+
+body{
+background-color:coral;
+}
+
+h6{
+text-align:center;
+font-size:5em;
+font-weight:bold;
+color:black;
+}

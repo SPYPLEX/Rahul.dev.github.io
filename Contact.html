@@ -1,0 +1,52 @@
+﻿<!Doctype html>
+<html oncontextmenu="return false;">
+<head>
+<title>Contact Us</title>
+<link rel="stylesheet" href="Contact.css">
+</head>
+<body>
+<form id="myForm" onsubmit="return validateForm()">
+
+<center>
+<br>
+<br>
+<br>
+<br>
+<div class="box">
+<br>
+<br>
+<br>
+<h2>Hire me !</h2>
+<br>
+<input type="text" placeholder="username" id="name">
+<br>
+<br>
+<input type="email" placeholder="email" id="email">
+<br>
+<br>
+<input type="submit" value="submit">
+</body>
+   
+
+    <script>
+        function validateForm() {
+            var name = document.getElementById("name").value;
+            var email = document.getElementById("email").value;
+
+            if (name == "") {
+                alert("Name must be filled out");
+                return false;
+            }
+
+            if (email == "") {
+                alert("Email must be filled out");
+                return false;
+            }
+
+         
+
+            alert("we'll get back to u soon  !!");// 
+        }
+    </script>
+
+</html>
